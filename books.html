@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>المؤلفات (PDF)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="عرض وحفظ المؤلفات بصيغة PDF مع إمكانية البحث والتصفية.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">المؤلفات العلمية</a>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">الرئيسية</a>
+        <a href="books.html" class="active">المؤلفات (PDF)</a>
+        <a href="videos.html">مقاطع الفيديو</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>المؤلفات (PDF)</h1>
+        <p>
+          في هذه الصفحة يتم عرض جميع المؤلفات المتاحة بصيغة PDF، مع إمكانية تحميلها أو قراءتها مباشرة.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- شريط البحث والتصفية -->
+        <div class="filters">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="ابحث باسم الكتاب أو الموضوع..."
+          >
+          <select id="categoryFilter">
+            <option value="">كل التصنيفات</option>
+            <option value="السيرة">السيرة</option>
+            <option value="التاريخ">التاريخ</option>
+            <option value="التربية">التربية</option>
+            <option value="فقه">فقه</option>
+            <option value="دراسات">دراسات</option>
+          </select>
+          <select id="yearFilter">
+            <option value="">كل السنوات</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2000">2000</option>
+          </select>
+        </div>
+
+        <!-- قائمة المؤلفات -->
+        <div class="cards-grid" id="booksList">
+
+          <!-- إجلاء النبي لليهود عن المدينة -->
+          <article
+            class="card book-card"
+            data-title="إجلاء النبي لليهود عن المدينة"
+            data-category="السيرة"
+            data-year="2000"
+          >
+            <h2>إجلاء النبي لليهود عن المدينة</h2>
+            <p class="book-meta">
+              التصنيف: السيرة والتاريخ
+            </p>
+            <p class="book-desc">
+              دراسة تاريخية عن تعامل النبي ﷺ مع يهود المدينة وأحداث الإجلاء.
+            </p>
+            <div class="card-actions">
+              <a href="files/ijlaa-nabi-lyahood-madina.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/ijlaa-nabi-lyahood-madina.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- إجلاء عمر لأهل الذمة -->
+          <article
+            class="card book-card"
+            data-title="إجلاء عمر لأهل الذمة"
+            data-category="التاريخ"
+            data-year="2000"
+          >
+            <h2>إجلاء عمر لأهل الذمة</h2>
+            <p class="book-meta">
+              التصنيف: التاريخ الإسلامي
+            </p>
+            <p class="book-desc">
+              بحث في سياسة عمر بن الخطاب رضي الله عنه مع أهل الذمة وإجلائهم.
+            </p>
+            <div class="card-actions">
+              <a href="files/ijlaa-omar-li-ahl-althimma.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/ijlaa-omar-li-ahl-althimma.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- آراء ابن الحاج في تعليم الصبيان -->
+          <article
+            class="card book-card"
+            data-title="آراء ابن الحاج في تعليم الصبيان"
+            data-category="التربية"
+            data-year="2000"
+          >
+            <h2>آراء ابن الحاج في تعليم الصبيان</h2>
+            <p class="book-meta">
+              التصنيف: التربية والتعليم
+            </p>
+            <p class="book-desc">
+              عرض وتحليل لآراء ابن الحاج في منهجية تعليم الصغار وضبط سلوكهم.
+            </p>
+            <div class="card-actions">
+              <a href="files/araa-ibn-alhaj-taaleem-alssabyan.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/araa-ibn-alhaj-taaleem-alssabyan.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- أزواج النبي -->
+          <article
+            class="card book-card"
+            data-title="أزواج النبي ﷺ"
+            data-category="السيرة"
+            data-year="2000"
+          >
+            <h2>أزواج النبي ﷺ</h2>
+            <p class="book-meta">
+              التصنيف: السيرة النبوية
+            </p>
+            <p class="book-desc">
+              دراسة عن أمهات المؤمنين رضي الله عنهن ومكانتهن في السيرة النبوية.
+            </p>
+            <div class="card-actions">
+              <a href="files/azwaj-alnabi.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/azwaj-alnabi.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- إسلام عمر بن الخطاب -->
+          <article
+            class="card book-card"
+            data-title="إسلام عمر بن الخطاب"
+            data-category="السيرة"
+            data-year="2000"
+          >
+            <h2>إسلام عمر بن الخطاب</h2>
+            <p class="book-meta">
+              التصنيف: السيرة النبوية
+            </p>
+            <p class="book-desc">
+              قصة إسلام الفاروق رضي الله عنه ودوره في نصرة الدين.
+            </p>
+            <div class="card-actions">
+              <a href="files/islam-omar.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/islam-omar.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- الأطعمة والأشربة في عصر الرسول -->
+          <article
+            class="card book-card"
+            data-title="الأطعمة والأشربة في عصر الرسول"
+            data-category="دراسات"
+            data-year="2000"
+          >
+            <h2>الأطعمة والأشربة في عصر الرسول</h2>
+            <p class="book-meta">
+              التصنيف: دراسات تاريخية
+            </p>
+            <p class="book-desc">
+              بحث عن المأكولات والمشروبات التي كانت معروفة في زمن النبي ﷺ.
+            </p>
+            <div class="card-actions">
+              <a href="files/al-atimah-wal-ashribah.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/al-atimah-wal-ashribah.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- الآنية والأوعية المستخدمة في عهد النبي -->
+          <article
+            class="card book-card"
+            data-title="الآنية والأوعية المستخدمة في عهد النبي"
+            data-category="دراسات"
+            data-year="2000"
+          >
+            <h2>الآنية والأوعية المستخدمة في عهد النبي</h2>
+            <p class="book-meta">
+              التصنيف: دراسات حضارية
+            </p>
+            <p class="book-desc">
+              دراسة حول الأدوات والأواني التي استخدمها النبي والصحابة في حياتهم اليومية.
+            </p>
+            <div class="card-actions">
+              <a href="files/al-ania-wal-awiah.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/al-ania-wal-awiah.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- الخواتيم الاسلامية في القرنين الاول والثاني -->
+          <article
+            class="card book-card"
+            data-title="الخواتيم الاسلامية في القرنين الاول والثاني"
+            data-category="تاريخ"
+            data-year="2000"
+          >
+            <h2>الخواتيم الإسلامية في القرنين الأول والثاني</h2>
+            <p class="book-meta">
+              التصنيف: التاريخ الإسلامي
+            </p>
+            <p class="book-desc">
+              بحث يدرس خواتيم الرسائل والوثائق في القرنين الأول والثاني الهجريين.
+            </p>
+            <div class="card-actions">
+              <a href="files/al-khawateem-al-islamiyyah.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/al-khawateem-al-islamiyyah.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- الرسول في المدينة لعلي حسني الخربوطلي -->
+          <article
+            class="card book-card"
+            data-title="الرسول في المدينة لعلي حسني الخربوطلي"
+            data-category="السيرة"
+            data-year="2000"
+          >
+            <h2>الرسول في المدينة – علي حسني الخربوطلي</h2>
+            <p class="book-meta">
+              التصنيف: السيرة
+            </p>
+            <p class="book-desc">
+              دراسة حول حياة النبي ﷺ في المدينة المنورة كما رواها المؤرخ علي حسني الخربوطلي.
+            </p>
+            <div class="card-actions">
+              <a href="files/al-rasool-fil-madina-kharbootli.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/al-rasool-fil-madina-kharbootli.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+          <!-- الفرش والستور على عهد النبي -->
+          <article
+            class="card book-card"
+            data-title="الفرش والستور على عهد النبي"
+            data-category="دراسات"
+            data-year="2000"
+          >
+            <h2>الفرش والستور على عهد النبي</h2>
+            <p class="book-meta">
+              التصنيف: دراسات حضارية
+            </p>
+            <p class="book-desc">
+              بحث عن المفروشات والستائر المستخدمة في زمن النبي ﷺ وأثرها الاجتماعي.
+            </p>
+            <div class="card-actions">
+              <a href="files/al-firash-wal-sutoor.pdf" target="_blank" rel="noopener noreferrer" class="btn primary-btn">
+                قراءة PDF
+              </a>
+              <a href="files/al-firash-wal-sutoor.pdf" download class="btn secondary-btn">
+                تحميل
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

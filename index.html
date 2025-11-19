@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الموقع الرسمي للمؤلفات</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="موقع مخصص لتعريف ونشر وحفظ المؤلفات بصيغة PDF بالإضافة إلى مقاطع الفيديو.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- رأس الموقع -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">المؤلفات العلمية</a>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="active">الرئيسية</a>
+        <a href="books.html">المؤلفات (PDF)</a>
+        <a href="videos.html">مقاطع الفيديو</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- المحتوى الرئيسي -->
+  <main>
+    <!-- قسم البطل -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>مكتبة المؤلفات العلمية</h1>
+          <p>
+            منصة إلكترونية مخصصة لتعريف ونشر وحفظ المؤلفات بصيغة PDF،
+            بالإضافة إلى مكتبة مرئية لمقاطع الفيديو العلمية والمحاضرات.
+          </p>
+          <div class="hero-actions">
+            <a href="books.html" class="btn primary-btn">استعراض المؤلفات</a>
+            <a href="videos.html" class="btn secondary-btn">مشاهدة المقاطع</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>هدف الموقع</h2>
+          <p>
+            حفظ الإنتاج العلمي ونشره بصورة منظمة وآمنة وسهلة الوصول للجميع،
+            مع تصنيف واضح بين المؤلفات المكتوبة والمواد المرئية.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم مختصر عن المؤلف / المشروع -->
+    <section class="section">
+      <div class="container two-columns">
+        <div>
+          <h2>نبذة مختصرة</h2>
+          <p>
+            هنا تكتب نبذة تعريفية عن المؤلف / المشروع: السيرة العلمية، الاهتمامات،
+            أبرز الإسهامات، والجوائز أو التكريمات.
+          </p>
+          <p>
+            يمكنك تعديل هذا النص لاحقًا وإضافة أي معلومات تراها مناسبة
+            لتعريف الزوار بالمحتوى ورسالة الموقع.
+          </p>
+        </div>
+        <div class="info-box">
+          <h3>إحصائيات سريعة</h3>
+          <ul>
+            <li><strong>عدد المؤلفات:</strong> 10 مؤلفات PDF</li>
+            <li><strong>عدد المقاطع:</strong> 0 مقطع حتى الآن</li>
+            <li><strong>لغة المحتوى:</strong> العربية</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- روابط سريعة للمؤلفات والفيديو -->
+    <section class="section section-muted">
+      <div class="container cards-grid">
+        <a href="books.html" class="card link-card">
+          <h3>المؤلفات (PDF)</h3>
+          <p>
+            تصفح المؤلفات بصيغة PDF مع إمكانية البحث والتصفية حسب التصنيف أو سنة النشر.
+          </p>
+        </a>
+        <a href="videos.html" class="card link-card">
+          <h3>مقاطع الفيديو</h3>
+          <p>
+            مجموعة من المحاضرات والدروس والمقاطع المرئية المرتبطة بالمؤلفات.
+          </p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ذيل الموقع -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> جميع الحقوق محفوظة.</p>
+      <p class="footer-note">
+        تم إنشاء هذا الموقع لحفظ ونشر المؤلفات العلمية بصيغة رقمية آمنة.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
