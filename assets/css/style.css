@@ -331,3 +331,10 @@ body {
     display: block;
   }
 }
+
+/* إضافة صورة خلفية للقسم العلوي */
+.hero {
+  background-image: url('../%D8%AA%D9%83%D8%B1%D9%8A%D9%85%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D9%84.jpg');
+  background-size: cover;
+  background-position: center;
+}
