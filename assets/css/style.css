@@ -101,7 +101,7 @@ body {
 }
 
   
-  bro-inner {
+  .hero-inner {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
   gap: 24px;
