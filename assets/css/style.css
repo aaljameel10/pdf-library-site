@@ -95,6 +95,7 @@ body {
 
 .hero {
   padding: 40px 0 32px;
+    b
 }
 
 .hero-inner {
@@ -102,6 +103,9 @@ body {
   grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
   gap: 24px;
   align-items: center;
+    
+  
+  
 }
 
 .hero-text h1 {
@@ -326,4 +330,11 @@ body {
   .nav-toggle {
     display: block;
   }
+}
+
+/* اضافة صورة خلفية للقسم العلوي */
+.hero {
+  b ackground-image: url('../تكريم محمد الجميل.jpg');
+  background-size: cover;
+  background-position: center;
 }
